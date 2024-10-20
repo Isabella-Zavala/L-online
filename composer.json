@@ -1,0 +1,19 @@
+{
+    "name": "libreon/libreria-online",
+    "description": "creacion de una tienda online",
+    "type": "project",
+    "authors":[
+        {
+            "name": "isabella alessandra zavala y petriciolli romo"
+        }
+    ],
+    "require":{
+
+    },
+    "autoload": {
+        "psr-4": {
+            "libreon\\": "src/"
+        }
+    }
+
+}

@@ -1,0 +1,126 @@
+.panel-title{
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+#main{
+        margin-top: 100px;
+}
+
+.u-size-100{
+	width: 100px;
+	text-align: center;
+}
+
+.main-form{
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.panel-info>.panel-heading{
+	color: #ffffff;
+    background-color: #e95420;
+}
+.main-login{
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.footer{
+	margin-top: 100px;
+  
+}
+
+.titulo-libro{
+	font-size: 10px;
+	margin: 0;
+	font-weight: bold;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las columnas se envuelvan si no hay espacio suficiente */
+}
+
+.col-md-2 {
+    padding-left: 5px; /* Espaciado entre columnas */
+    padding-right: 5px; /* Espaciado entre columnas */
+}
+.panel {
+    display: flex; /* Habilitar flexbox */
+    flex-direction: column; /* Coloca los elementos en una columna */
+    height: 100%; /* Permite que el panel ocupe toda la altura disponible */
+}
+
+.panel-body {
+    flex: 1; /* Permite que el cuerpo del panel ocupe el espacio restante */
+}
+
+.panel-footer {
+    margin-top: auto; /* Asegura que el pie de panel esté al final */
+}
+
+img {
+    max-width: 100%; /* Asegúrate de que las imágenes no excedan el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+form.navbar-form {
+    display: block !important;
+}
+.tracking-container {
+    margin-bottom: 50px;
+  }
+
+  /* Centrar íconos y progresión */
+  .tracking-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  /* Línea de progreso */
+  .progress-line {
+    position: absolute;
+    top: 50%; /* Centrar verticalmente */
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #e0e0e0;
+    z-index: 1;
+    transform: translateY(-50%);
+  }
+
+  /* Barra activa del progreso */
+  .progress-bar {
+    height: 100%;
+    background-color: #d9534f;
+    width: 20%; /* Marca solo el primer paso */
+  }
+
+  /* Estilo de cada paso */
+  .tracking-step {
+    text-align: center;
+    width: 20%; /* Cinco pasos iguales */
+    z-index: 2;
+  }
+
+  .tracking-step img {
+    width: 50px;
+    height: 50px;
+    opacity: 0.5; /* Íconos no activos */
+  }
+
+  /* Ícono activo */
+  .tracking-step.active img {
+    opacity: 1;
+  }
+
+  .tracking-step p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  /* Espacio inferior del jumbotron */
+  .jumbotron {
+    margin-top: 30px;
+  }
